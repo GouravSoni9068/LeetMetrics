@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(53, 50, 56, 0.894);
+    height:100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: rgba(20, 20, 20, 0.699);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.input{
+    width: 100%;
+}
+.takeinput{
+    display: flex;
+    gap: 10px;
+    height: 25px;
+    width: 100%;
+
+}
+.username
+{
+    width: 70%;
+    border-radius: 5px;
+}
+.input button{
+    background-color: blue;
+    border-radius: 2px;
+    border:solid 1px black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.input button:hover{
+    cursor: pointer;
+    background-color: rgba(58, 54, 182, 0.833);
+    color: black;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* display: none ; */
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(5, 24, 0);
+    border: solid 2px rgba(0, 128, 0, 0.588);
+    background: conic-gradient(rgba(0, 128, 0, 0.588) var(--progressPercent , 0%),rgb(3, 19, 0) 0%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
