@@ -18,6 +18,7 @@ body{
     align-items: center;
     padding: 30px;
     gap: 20px;
+    width: 50%;
 }
 .input{
     width: 100%;
@@ -63,6 +64,36 @@ body{
     background: conic-gradient(rgba(0, 128, 0, 0.588) var(--progressPercent , 0%),rgb(3, 19, 0) 0%);
     border-radius: 50%;
     display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
     justify-content: center;
     align-items: center;
+}
+.circle p{
+    margin: 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    /* margin: 10px; */
+    padding: 7px;
+    background-color: #612d1e;
+    border-radius: 10px;
+    gap: 5px;
+}
+.card .type{
+    font-size: large;
+    font-weight: bold;
+    
 }
